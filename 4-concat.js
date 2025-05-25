@@ -1,3 +1,4 @@
-console.log("c is cool");
-console.log("c is undefined");
-console.log("undefined is undefined");
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
+
+console.log(`${firstArg} is ${secondArg}`);
